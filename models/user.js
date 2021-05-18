@@ -1,3 +1,5 @@
+const sequelize = require('../db');
+
 module.exports = function(sequelize, DataTypes) {
     return sequelize.define('user', {
         full_name: {
